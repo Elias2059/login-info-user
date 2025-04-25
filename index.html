@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de login</title>
+  </head>
+
+  <body>
+    <div class="login-container">
+      <form id="loginForm" class="login-form">
+        <h2>Login</h2>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu email..."
+          />
+          <span class="error-message">Por favor, insira um e-mail válido.</span>
+        </div>
+        <div class="form-group">
+          <label for="password">Senha:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Digite sua senha..."
+          />
+          <span class="error-message">A senha deve ter no mínimo <b>6</b> caracteres</span>
+        </div>
+        <button type="submit" class="login-button">Entrar</button>
+      </form>
+    </div>
+  </body>
+</html>
