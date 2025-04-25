@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Tela de login</title>
   </head>
 
@@ -28,11 +28,12 @@
             id="password"
             name="password"
             placeholder="Digite sua senha..."
-          />
+            minlength="6"/> <!-- minlength define o mínimo de 6 caracteres--> 
           <span class="error-message">A senha deve ter no mínimo <b>6</b> caracteres</span>
         </div>
         <button type="submit" class="login-button">Entrar</button>
       </form>
     </div>
+    <script src="js/validation.js"></script>
   </body>
 </html>
